@@ -101,8 +101,6 @@ function holdScore(){
 }
 
 const resetGame = () =>{
-    playerZero.classList.add('player--active')
-    playerOne.classList.remove('player--active')
     init()
 }
 
